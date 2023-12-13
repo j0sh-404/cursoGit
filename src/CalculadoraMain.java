@@ -6,13 +6,13 @@ public class CalculadoraMain {
 	public static void main(String[] args) {
 		System.out.println("Hola mundo perros");
 
-		Suma suma = new  Suma(2,5);// comentario en la línea 9 desde la rama agregando_resta
+		Suma suma = new  Suma(2,500);// comentario en la línea 9 desde la rama agregando_resta
 		
 		System.out.println("La suma es "+ suma.sumar());
 
-		Suma sumab = new  Suma(10,300); //Comentario en linea 13 desde la rama agregando_resta
+		Suma sumab = new  Suma(10,10); //Comentario en linea 13 desde la rama agregando_resta
 		
-		System.out.println("La suma es "+ sumab.sumar());
+		System.out.println("La suma es del total es  "+ sumab.sumar());
 		
 		Resta resta1 = new  Resta(100,45);
 		
