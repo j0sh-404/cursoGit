@@ -8,5 +8,9 @@ public class CalculadoraMain {
 		Suma suma = new  Suma(2,5);
 		
 		System.out.println("La suma es "+ suma.sumar());
+
+		Suma suma = new  Suma(10,300);
+		
+		System.out.println("La suma es "+ suma.sumar());
 	}
 }
