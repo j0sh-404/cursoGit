@@ -18,5 +18,6 @@ public class CalculadoraMain {
 		Resta resta1 = new  Resta(100,45);
 		
 		System.out.println("La resta es: "+resta1.restar());
+		//comentario de ejemplo
 	}
 }

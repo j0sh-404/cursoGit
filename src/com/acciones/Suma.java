@@ -6,6 +6,8 @@ public class Suma {
 	
 	private int numeroB;
 	
+	private int muneroC;
+	
 	
 
 	public Suma(int numeroA, int numeroB) {
@@ -13,22 +15,20 @@ public class Suma {
 		this.numeroA = numeroA;
 		this.numeroB = numeroB;
 	}
+	
+	
+	
 
-	public int getNumeroA() {
-		return numeroA;
-	}
-
-	public void setNumeroA(int numeroA) {
+	public Suma(int numeroA, int numeroB, int muneroC) {
+		super();
 		this.numeroA = numeroA;
-	}
-
-	public int getNumeroB() {
-		return numeroB;
-	}
-
-	public void setNumeroB(int numeroB) {
 		this.numeroB = numeroB;
+		this.muneroC = muneroC;
 	}
+
+
+
+
 	
 	public int sumar() {
       return this.numeroA + this.numeroB;
