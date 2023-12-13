@@ -9,8 +9,8 @@ public class CalculadoraMain {
 		
 		System.out.println("La suma es "+ suma.sumar());
 
-		Suma suma = new  Suma(10,300);
+		Suma sumab = new  Suma(10,300);
 		
-		System.out.println("La suma es "+ suma.sumar());
+		System.out.println("La suma es "+ sumab.sumar());
 	}
 }
