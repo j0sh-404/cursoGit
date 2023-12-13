@@ -9,7 +9,7 @@ public class CalculadoraMain {
 		
 		System.out.println("La suma es "+ suma.sumar());
 
-		Suma sumab = new  Suma(10,300);
+		Suma sumab = new  Suma(10,300);//comentario en la línea 12 desde la rama main
 		
 		System.out.println("La suma es "+ sumab.sumar());
 	}
