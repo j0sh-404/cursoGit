@@ -29,11 +29,15 @@ public class Suma {
 
 
 
-	
+	   
 	public int sumar() {
       return this.numeroA + this.numeroB;
 	}
 	
+	
+	public int sumarTresNumeros() {
+		return this.numeroA+this.numeroB+ this.muneroC;
+	}
 	
 
 }
