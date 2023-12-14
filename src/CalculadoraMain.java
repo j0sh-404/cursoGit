@@ -18,5 +18,9 @@ public class CalculadoraMain {
 		Resta resta1 = new  Resta(100,45);
 		
 		System.out.println("La resta es: "+resta1.restar());
+
+		Resta resta2 = new Resta(300,50);
+		System.out.println("La resta es: "+resta2.restar());
+
 	}
 }
